@@ -1,4 +1,4 @@
-//META {"name":"minicord","description": "Minimal theme inspired by Kast and BakedPVP","author":"Glissant","version":"0.3"}*//
+//META {"name":"minicord","description": "Minimal theme inspired by Kast and BakedPVP","author":"Glissant","version":"0.4"}*//
 
 /*
 
@@ -10,7 +10,7 @@
 
 
 :root {
-  --version: "minicord v0.3";
+  --version: "minicord v0.4";
   --theme-notice: 'minicord installed! Thanks to BakedPVP and Kast.';
   --chat-color: #202020;
   --you-color: #392e5c;
@@ -1493,9 +1493,10 @@ innerEnabled-gLHeOL inner-3if5cm flex-3B1Tl4 .theme-dark .attachButtonDivider-3t
   margin-bottom: 8px;
 }
 .typing-3eiiL_ strong {
-  color: var(--links-color);
+
   text-align: center;
 }
+/*color: var(--links-color);*/
 /* Right click */
 .small-popout-box {
   background: #29292A;
