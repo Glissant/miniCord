@@ -1,0 +1,75 @@
+//META{"name":"Shrink members list","description":"Makes the members list avatar only until you hover over it.","author":"Glissant","version":"1.1"}*//{}
+/* Online Minimal */
+.channel-members{
+    transform:translate(150px);
+    z-index:2;
+    transition:all 200ms ease-in-out;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top-left-radius: 0px!important;
+    border-bottom-left-radius: 0px!important;
+}
+.channel-members:hover{
+    animation: member 100ms ease-in-out;
+    transform:translate(0px);
+    background: #202020 !important;
+
+    /*margin-bottom:82px;*/
+}
+.channel-members .member .member-activity,
+.channel-members .member .member-username-inner{
+    opacity:0.6;
+    transition:opacity 200ms ease, margin 100ms ease;
+}
+.channel-members .member .member-username-inner{
+    margin-bottom: 0px;
+}
+.channel-members:hover .member .member-activity, .channel-members:hover .member .member-username-inner{
+    opacity:1;
+
+}
+.channel-members h2{
+    opacity:0.6;
+    transform-origin:left;
+    transform:ease(1);
+    transition: all 200ms ease;
+    padding: 0px 12px;
+    margin-top: 10px;
+}
+.channel-members:hover h2{
+    transform:scale(1);
+    padding: 0px 12px;
+    margin-left: 0px;
+}
+.channel-members .avatar-small{
+    opacity:0.6;
+    transition:opacity 200ms ease, margin 100ms ease;
+    transform:scale(1);
+}
+.channel-members:hover .avatar-small{
+    opacity:1;
+    transform:scale(1);
+}
+.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
+    margin-right:-150px !important;
+    z-index:1
+}
+.chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
+    margin-right: 0px !important;
+    z-index:1
+}
+
+.channel-members::after {
+    display: none;
+}
+
+.channel-members h2 {
+    margin-left: 0px !important;
+}
+
+.channel-members-wrap {
+    border-left: 0px solid var(--chat-color);
+    background-color: transparent;
+}
+
+/* End Online Minimal */
