@@ -1,0 +1,4 @@
+Stuff to fix in theme:
+Colors:
+Checkbox in settings (can't find it ARRRGH)
+Add friend button color in Friends (fixed?)
