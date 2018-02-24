@@ -162,12 +162,13 @@ div#bd-pub-li {
 /* Servers */
 .guilds-wrapper {
   background: #202020;
-  width:65px!important;
+  width:75px!important;
+  left: 4px;
 }
 
 .guilds-wrapper .guilds .guild,.guilds-wrapper .guilds .guild .guild-inner a,.guilds-wrapper .guilds .friends-icon {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a {
@@ -204,9 +205,9 @@ div#bd-pub-li {
   background: transparent;
   top: 17px !important;
   left: -3px !important;
-  height: 46px !important;
-  width: 46px !important;
-  transition: ease !important;
+  height: 51px !important;
+  width: 51px !important;
+  transition: ease-in-out !important;
   z-index: 0;
 }
 
