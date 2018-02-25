@@ -1,6 +1,7 @@
 //META{"name":"Shrink members list","description":"Makes the members list avatar only until you hover over it.","author":"Glissant","version":"1.1"}*//{}
 /* Online Minimal */
-.channel-members{
+@media all and (max-width: 1500px) {
+     .channel-members{
     transform:translate(150px);
     z-index:2;
     transition:all 200ms ease-in-out;
@@ -71,5 +72,6 @@
     border-left: 0px solid var(--chat-color);
     background-color: transparent;
 }
+ }
 
 /* End Online Minimal */
