@@ -18,3 +18,14 @@ Stuff to fix in theme:
 Colors:
 Checkbox in settings (can't find it ARRRGH)
 Add friend button color in Friends (fixed?)
+
+
+
+
+
+
+
+
+
+Stuff to do in theme:
+Channel list hover background -> try to make it go from transparent to full in the same way unread goes from small to full.
